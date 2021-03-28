@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/email.css">
-    <link rel="icon" href="images/marcas/logitech.svg">
+    <link rel="stylesheet" href="../../css/animation.css">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="stylesheet" href="../../css/productos_detail.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+    <link rel="icon" href="../../images/marcas/logitech.svg">
     <title>Gamer Stage</title>
 </head>
 <body>
     <!-- seccion del nav -->
     <nav class="fadeInDown">
         <div class="logo">
-            <a href="index.html"><img src="images/marcas/logitech.svg" alt="#"></a>
+            <a href="../../index.html"><img src="../../images/marcas/logitech.svg" alt="#"></a>
         </div>
         <div id="menu">
             <ul>
-                <li id="item"><a href="index.html">Inicio</a></li>
-                <li id="item"><a href="catalogo.html">Catálogo</a>
+                <li id="item"><a href="../../index.html">Inicio</a></li>
+                <li id="item"><a href="../../catalogo.html">Catálogo</a>
                     <ul id="desple">
                         <li><a href="#">Marcas</a></li>
                         <li><a href="#">PC'S completas</a></li>
@@ -32,35 +34,27 @@
                         <li><a href="#">Pad's</a></li>
                     </ul>
                 </li>
-                <li id="item"><a href="mail.html">Contáctanos</a></li>
+                <li id="item"><a href="../../mail.html">Contáctanos</a></li>
             </ul>
         </div>
     </nav>
     <!-- seccion del nav -->
-    <!-- seccion del email -->
-    <form action="correos.php" method="POST">
-        <div class="form">
-            <h1>Contáctanos</h1>
-            <div class="grupo">
-                <input type="text" name="nombre" id="" required><span class="barra"></span>
-                <label>Nombre</label>
-            </div>
-            <div class="grupo">
-                <input type="email" name="email" id="" required><span class="barra"></span>
-                <label>Email</label>
-            </div>
-            <div class="grupo">
-                <input type="text" name="asunto" id="" required><span class="barra"></span>
-                <label>Asunto</label>
-            </div>
-            <div class="grupo">
-                <textarea name="mensaje" id="" rows="3" required></textarea><span class="barra"></span>
-                <label>Mensaje</label>
-            </div>
-            <button type="submit">Enviar</button>
+    <!-- detalles del producto -->
+    <div class="container_detail_product">
+        <div class="container_detail_product_img">
+            <img src="../../images/productos/procesadores/intel/i3-10°.jpg" alt="">
         </div>
-    </form>
-    <!-- seccion del email -->
+        <div class="container_detail_product_text">
+            <div class="container_text_main">
+                <h1>Procesador Intel Core i3 10° generación</h1>
+                <h2>-4 núcleos 3.5hz <br>-detalles <br>-detalles<br>-detalles<br>-detalles<br>-detalles </h2>
+            </div>
+            <div class="button">
+                <button class="button_pay"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB2RXBY4FWWPL">Buy Now</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- detalles del producto -->
     <!-- seccion del footer -->
     <footer>
         <div class="terms">
@@ -77,5 +71,6 @@
         </div>
     </footer>
     <!-- seccion del footer -->
+
 </body>
 </html>

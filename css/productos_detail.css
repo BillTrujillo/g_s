@@ -1,0 +1,28 @@
+.container_detail_product{
+    margin: 100px 0;
+    display: flex;
+}
+
+.container_detail_product_img{
+    width: 50%;
+    text-align: center;
+}
+
+.container_detail_product_img img{
+    width: 80%;
+}
+
+.container_detail_product_text{
+    width: 50%;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.container_detail_product_text h1{
+    padding-bottom: 30px;
+}
+
+.container_detail_product_text h2{
+    text-align: justify;
+    padding: 0 180px;
+}

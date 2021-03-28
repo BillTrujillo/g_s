@@ -6,11 +6,11 @@
     $mensaje = $_POST['mensaje'];
     $email = $_POST['email'];
 
-    $header = "Enviado desde la página de billdesign";
+    $header = "Enviado desde la página de Gamer Stage";
     $mensajeCompleto = $mensaje . "\nAtentamente: ". $nombre 
 
     mail($destinatario ,$asunto ,$mensajeCompleto ,$header);
     echo"<script>alert('correo enviado exitosamente')</script>";
-    echo"<script>setTimeout(\"location.href='mail.html'\",1000)</script>";
+    echo"<script>setTimeout(\"location.href='index.html'\",1000)</script>";
 
 ?>
